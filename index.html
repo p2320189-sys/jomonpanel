@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>縄文デジタルブック</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="stage">
+  <img id="imgA" class="page-layer" src="doguuichiran.pdf" alt="">
+  <img id="imgB" class="page-layer" src="" alt="">
+  <div id="pointer"></div>
+  <div id="debug-info">page: 0</div>
+
+  <!-- 地図ポップアップ -->
+  <div id="map-popup">
+    <div id="map-overlay"></div>
+    <div id="map-container">
+      <div id="map-frame"></div>
+      <button id="map-close">✕ 閉じる</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
